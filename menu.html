@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Jomidari Bhoj</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="topbar inner-topbar">
+        <a class="brand" href="index.html" aria-label="Jomidari Bhoj home">
+          <img src="logo.jpg" alt="Jomidari Bhoj logo" />
+          <span>
+            <strong>জমিদারি ভোজ</strong>
+            <small>Jomidari Bhoj</small>
+          </span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a class="active" href="menu.html">Menu</a>
+          <a href="index.html#story">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="tel:+8801906842423">Order</a>
+      </header>
+
+      <section class="menu-hero">
+        <div>
+          <p class="eyebrow">Royal menu</p>
+          <h1>Choose your feast.</h1>
+          <p>
+            Browse the restaurant menu and tap any dish to continue to the
+            buying page.
+          </p>
+        </div>
+        <img src="dish1.jpg" alt="Kacchi biryani platter" />
+      </section>
+
+      <section class="dish-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Generated from the menu</p>
+            <h2>Popular dishes</h2>
+          </div>
+          <a class="button button-light compact" href="#original-menu">Original Menu</a>
+        </div>
+
+        <div class="dish-grid" id="dishGrid"></div>
+      </section>
+
+      <section id="original-menu" class="original-menu">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Menu photos</p>
+            <h2>Restaurant menu boards</h2>
+          </div>
+        </div>
+        <div class="menu-images">
+          <img src="menu1.jpg" alt="Jomidari Bhoj evening menu" />
+          <img src="menu2.jpg" alt="Jomidari Bhoj full menu" />
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

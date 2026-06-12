@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order | Jomidari Bhoj</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="topbar inner-topbar">
+        <a class="brand" href="index.html" aria-label="Jomidari Bhoj home">
+          <img src="logo.jpg" alt="Jomidari Bhoj logo" />
+          <span>
+            <strong>জমিদারি ভোজ</strong>
+            <small>Jomidari Bhoj</small>
+          </span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="index.html#story">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="tel:+8801906842423">Call</a>
+      </header>
+
+      <section class="order-layout">
+        <div class="order-photo">
+          <img id="orderImage" src="dish1.jpg" alt="Selected dish" />
+        </div>
+
+        <form class="order-panel">
+          <p class="eyebrow">Buying page</p>
+          <h1 id="orderName">Selected Dish</h1>
+          <p id="orderDescription" class="order-description"></p>
+          <div class="price-row">
+            <span>Price</span>
+            <strong id="orderPrice">৳0</strong>
+          </div>
+          <div class="price-row total-row">
+            <span>Total</span>
+            <strong id="orderTotal">৳0</strong>
+          </div>
+
+          <label>
+            Quantity
+            <input id="orderQuantity" type="number" value="1" min="1" max="20" />
+          </label>
+          <label>
+            Your name
+            <input id="customerName" type="text" placeholder="Full name" />
+          </label>
+          <label>
+            Phone number
+            <input id="customerPhone" type="tel" placeholder="01XXXXXXXXX" />
+          </label>
+          <label>
+            Delivery address
+            <textarea id="customerAddress" rows="4" placeholder="House, road, area"></textarea>
+          </label>
+
+          <a id="whatsappOrder" class="button button-primary full-button" href="#">Order on WhatsApp</a>
+          <a class="button button-dark full-button" href="tel:+8801906842423">Call 01906-842423</a>
+
+          <p class="fine-print">
+            Visit us at 30, Nobab Gonj Kacha Bazar, opposite Nawab Ganj Bazar
+            Masjid, Lalbagh, Old Dhaka 1211.
+          </p>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
